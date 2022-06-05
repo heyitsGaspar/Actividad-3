@@ -1,0 +1,197 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins' sans-serif;
+}
+
+body
+{
+    background: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.contenedor
+{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    background: #fff;
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(0,0,0,0.1);
+}
+
+.contenedor .lado_izquierdo
+{
+    position: relative;
+    background: #003147;
+    padding: 40px;
+    
+}
+
+
+.perfil
+{
+   position: relative; 
+   display: flex;
+   flex-direction: column;
+   padding-bottom:  20px;
+   border-bottom: 1px solid rgba(255,255,255,0.2) ;
+}
+
+.perfil .img
+{
+   position: relative;
+   width: 200px;
+   height: 200px;
+   border-radius: 50%;
+   overflow: hidden;
+}
+
+.perfil .img yoGtr
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: 100x;
+    object-fit:cover
+}
+
+.perfil h2
+{
+    color: #fff;
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4em;
+}
+
+.perfil h2 span
+{
+    font-size: 0.8em;
+    font-weight: 300;
+}
+
+.Contactos
+{
+    padding-top: 40px;
+}
+
+.Titulo
+{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.Contactos ul
+{
+    position: relative;
+
+}
+.Contactos ul li
+{
+    position: relative;
+    list-style: none; 
+    margin: 10px 0; 
+    cursor: pointer;
+}
+
+.Contactos ul li .icono
+{
+    display: inline-block;
+    width:  30px;
+    font-size: 18px;
+    color: #03a9f4;
+}
+
+.Contactos ul li span
+{
+    color: #fff;
+}
+
+.Educacion li
+{
+   margin-bottom: 15px;
+}
+
+.Educacion h5
+{
+   color: #03a9f4;
+   font-weight: 500;
+}
+
+.Educacion h4 :nth-child(2)
+{
+    color:#fff;
+    font-weight: 300;
+    
+}
+.Educacion h4
+{
+   color: #fff;
+   font-weight: 500;
+}
+
+.Educacion h3
+{
+    color: #fff;
+}
+
+.Lenguajes h3
+{
+    color: #fff;
+}
+
+
+.Lenguajes span
+{
+    color: #fff;
+}
+
+
+.contenedor .lado_derecho
+{
+   position: relative;
+   background: #fff;
+   padding: 40px;
+}
+
+.Perfil
+{
+    margin-bottom: 50px;
+}
+.Perfil:last-child
+{
+    margin-bottom: 0;
+}
+
+.title1
+{
+    color: #003147;
+    text-transform: uppercase;
+    letter-spacing:  1px;
+    margin-bottom: 10px;
+
+}
+
+p
+{
+    color: #333;
+}
+
+.link
+{
+    background: #34df64;
+}
